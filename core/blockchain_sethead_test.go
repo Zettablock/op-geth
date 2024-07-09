@@ -27,16 +27,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
+	"github.com/ethereum/go-base/common"
+	"github.com/ethereum/go-base/consensus/ethash"
+	"github.com/ethereum/go-base/core/rawdb"
+	"github.com/ethereum/go-base/core/state"
+	"github.com/ethereum/go-base/core/types"
+	"github.com/ethereum/go-base/core/vm"
+	"github.com/ethereum/go-base/params"
+	"github.com/ethereum/go-base/trie"
+	"github.com/ethereum/go-base/trie/triedb/hashdb"
+	"github.com/ethereum/go-base/trie/triedb/pathdb"
 )
 
 // rewindTest is a test case for chain rollback upon user request.

@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/ethereum/go-base/common"
+	"github.com/ethereum/go-base/trie/trienode"
 )
 
 // committer is the tool used for the trie Commit operation. The committer will

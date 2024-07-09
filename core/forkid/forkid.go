@@ -26,9 +26,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-base/core/types"
+	"github.com/ethereum/go-base/log"
+	"github.com/ethereum/go-base/params"
 	"golang.org/x/exp/slices"
 )
 

@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-base/common"
+	"github.com/ethereum/go-base/core"
+	"github.com/ethereum/go-base/core/state"
+	"github.com/ethereum/go-base/core/types"
+	"github.com/ethereum/go-base/crypto/kzg4844"
+	"github.com/ethereum/go-base/log"
+	"github.com/ethereum/go-base/params"
 )
 
 // L1 Info Gas Overhead is the amount of gas the the L1 info deposit consumes.

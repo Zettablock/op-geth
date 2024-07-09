@@ -4,9 +4,9 @@ import (
 	"crypto/ecdsa"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
+	"github.com/ethereum/go-base/common"
+	"github.com/ethereum/go-base/crypto"
+	"github.com/ethereum/go-base/crypto/kzg4844"
 	"github.com/holiman/uint256"
 )
 

@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/msgrate"
+	"github.com/ethereum/go-base/common"
+	"github.com/ethereum/go-base/eth/protocols/eth"
+	"github.com/ethereum/go-base/event"
+	"github.com/ethereum/go-base/log"
+	"github.com/ethereum/go-base/p2p/msgrate"
 )
 
 const (

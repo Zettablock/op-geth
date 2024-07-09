@@ -25,12 +25,12 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-base/common"
+	"github.com/ethereum/go-base/common/hexutil"
+	"github.com/ethereum/go-base/common/math"
+	"github.com/ethereum/go-base/core/types"
+	"github.com/ethereum/go-base/core/vm"
+	"github.com/ethereum/go-base/params"
 	"github.com/holiman/uint256"
 )
 

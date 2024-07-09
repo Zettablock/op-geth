@@ -22,12 +22,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/ethereum/go-base/common"
+	"github.com/ethereum/go-base/core/rawdb"
+	"github.com/ethereum/go-base/core/types"
+	"github.com/ethereum/go-base/crypto"
+	"github.com/ethereum/go-base/ethdb"
+	"github.com/ethereum/go-base/trie"
 )
 
 type stateEnv struct {

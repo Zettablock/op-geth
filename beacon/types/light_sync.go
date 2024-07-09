@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-base/beacon/merkle"
+	"github.com/ethereum/go-base/beacon/params"
+	"github.com/ethereum/go-base/common"
 )
 
 // BootstrapData contains a sync committee where light sync can be started,

@@ -20,15 +20,15 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/ethereum/go-base/common"
+	"github.com/ethereum/go-base/core"
+	"github.com/ethereum/go-base/core/rawdb"
+	"github.com/ethereum/go-base/core/types"
+	"github.com/ethereum/go-base/core/vm"
+	"github.com/ethereum/go-base/crypto"
+	"github.com/ethereum/go-base/eth/tracers/logger"
+	"github.com/ethereum/go-base/params"
+	"github.com/ethereum/go-base/tests"
 )
 
 func BenchmarkTransactionTrace(b *testing.B) {

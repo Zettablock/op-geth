@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-base/common"
+	"github.com/ethereum/go-base/common/hexutil"
+	"github.com/ethereum/go-base/common/math"
+	"github.com/ethereum/go-base/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

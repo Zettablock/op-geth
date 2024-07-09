@@ -24,14 +24,14 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
+	"github.com/ethereum/go-base/common"
+	"github.com/ethereum/go-base/consensus/ethash"
+	"github.com/ethereum/go-base/core/rawdb"
+	"github.com/ethereum/go-base/core/vm"
+	"github.com/ethereum/go-base/ethdb"
+	"github.com/ethereum/go-base/params"
+	"github.com/ethereum/go-base/trie"
+	"github.com/ethereum/go-base/trie/triedb/pathdb"
 )
 
 func TestInvalidCliqueConfig(t *testing.T) {
