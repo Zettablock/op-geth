@@ -25,9 +25,9 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/ethereum/go-base/accounts"
-	"github.com/ethereum/go-base/event"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/accounts"
+	"github.com/Zettablock/op-geth/event"
+	"github.com/Zettablock/op-geth/log"
 	"github.com/karalabe/usb"
 )
 

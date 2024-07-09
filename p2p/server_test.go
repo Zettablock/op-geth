@@ -29,12 +29,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/internal/testlog"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/p2p/enode"
-	"github.com/ethereum/go-base/p2p/enr"
-	"github.com/ethereum/go-base/p2p/rlpx"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/internal/testlog"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/p2p/enode"
+	"github.com/Zettablock/op-geth/p2p/enr"
+	"github.com/Zettablock/op-geth/p2p/rlpx"
 )
 
 type testTransport struct {

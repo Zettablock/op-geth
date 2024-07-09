@@ -21,9 +21,9 @@ import (
 	"encoding/binary"
 	mrand "math/rand"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/trie/trienode"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/trie/trienode"
 )
 
 // Prng is a pseudo random number generator seeded by strong randomness.

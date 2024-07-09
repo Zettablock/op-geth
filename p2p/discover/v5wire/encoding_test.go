@@ -29,11 +29,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Zettablock/op-geth/common/hexutil"
+	"github.com/Zettablock/op-geth/common/mclock"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/p2p/enode"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-base/common/hexutil"
-	"github.com/ethereum/go-base/common/mclock"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/p2p/enode"
 )
 
 // To regenerate discv5 test vectors, run

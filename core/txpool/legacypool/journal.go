@@ -22,10 +22,10 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/rlp"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

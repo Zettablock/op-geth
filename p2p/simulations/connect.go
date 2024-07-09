@@ -20,7 +20,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/ethereum/go-base/p2p/enode"
+	"github.com/Zettablock/op-geth/p2p/enode"
 )
 
 var (

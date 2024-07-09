@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/params"
 	"github.com/stretchr/testify/require"
 )
 

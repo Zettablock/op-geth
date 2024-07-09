@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-base/event"
+	"github.com/Zettablock/op-geth/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

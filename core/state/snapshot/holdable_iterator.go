@@ -17,8 +17,8 @@
 package snapshot
 
 import (
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/ethdb"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/ethdb"
 )
 
 // holdableIterator is a wrapper of underlying database iterator. It extends

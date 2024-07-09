@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/ethereum/go-base/common"
+	"github.com/Zettablock/op-geth/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

@@ -28,12 +28,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-base/accounts"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/hexutil"
-	"github.com/ethereum/go-base/common/math"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/crypto"
+	"github.com/Zettablock/op-geth/accounts"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/hexutil"
+	"github.com/Zettablock/op-geth/common/math"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/crypto"
 )
 
 var typedDataReferenceTypeRegexp = regexp.MustCompile(`^[A-Za-z](\w*)(\[\])?$`)
@@ -91,7 +91,7 @@ type SendTxArgs struct {
 
 	// We accept "data" and "input" for backwards-compatibility reasons.
 	// "input" is the newer name and should be preferred by clients.
-	// Issue detail: https://github.com/ethereum/go-base/issues/15628
+	// Issue detail: https://github.com/Zettablock/op-geth/issues/15628
 	Data  *hexutil.Bytes `json:"data"`
 	Input *hexutil.Bytes `json:"input,omitempty"`
 

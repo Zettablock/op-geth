@@ -22,9 +22,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-base/accounts/keystore"
-	"github.com/ethereum/go-base/cmd/utils"
-	"github.com/ethereum/go-base/crypto"
+	"github.com/Zettablock/op-geth/accounts/keystore"
+	"github.com/Zettablock/op-geth/cmd/utils"
+	"github.com/Zettablock/op-geth/crypto"
 	"github.com/google/uuid"
 	"github.com/urfave/cli/v2"
 )

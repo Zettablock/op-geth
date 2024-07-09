@@ -22,14 +22,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-base/beacon/engine"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/eth"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/node"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth/beacon/engine"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/eth"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/node"
+	"github.com/Zettablock/op-geth/rpc"
 )
 
 const devEpochLength = 32

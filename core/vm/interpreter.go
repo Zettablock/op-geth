@@ -17,11 +17,11 @@
 package vm
 
 import (
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/math"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/math"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/params"
 )
 
 // PrecompileOverrides is a function that can be used to override the default precompiled contracts

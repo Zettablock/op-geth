@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-base/common"
+	"github.com/Zettablock/op-geth/common"
 )
 
 // Genesis hashes to enforce below configs on.

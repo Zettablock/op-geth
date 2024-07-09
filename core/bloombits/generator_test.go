@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-base/core/types"
+	"github.com/Zettablock/op-geth/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

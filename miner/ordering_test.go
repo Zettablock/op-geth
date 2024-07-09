@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/txpool"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/crypto"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/txpool"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/crypto"
 )
 
 func TestTransactionPriceNonceSortLegacy(t *testing.T) {

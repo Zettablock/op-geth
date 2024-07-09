@@ -25,12 +25,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/rawdb"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/event"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/rawdb"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/event"
+	"github.com/Zettablock/op-geth/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

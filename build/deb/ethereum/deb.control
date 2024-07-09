@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), {{.GoBootPackage}}
 Standards-Version: 3.9.5
 Homepage: https://ethereum.org
-Vcs-Git: https://github.com/ethereum/go-base.git
-Vcs-Browser: https://github.com/ethereum/go-base
+Vcs-Git: https://github.com/Zettablock/op-geth.git
+Vcs-Browser: https://github.com/Zettablock/op-geth
 
 Package: {{.Name}}
 Architecture: any

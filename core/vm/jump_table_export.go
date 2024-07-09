@@ -19,7 +19,7 @@ package vm
 import (
 	"errors"
 
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/params"
 )
 
 // LookupInstructionSet returns the instruction set for the fork configured by

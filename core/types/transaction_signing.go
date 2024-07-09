@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/params"
 )
 
 var ErrInvalidChainId = errors.New("invalid chain id for signer")

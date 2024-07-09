@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-base/accounts"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/hexutil"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/internal/ethapi"
-	"github.com/ethereum/go-base/signer/core"
-	"github.com/ethereum/go-base/signer/core/apitypes"
-	"github.com/ethereum/go-base/signer/storage"
+	"github.com/Zettablock/op-geth/accounts"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/hexutil"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/internal/ethapi"
+	"github.com/Zettablock/op-geth/signer/core"
+	"github.com/Zettablock/op-geth/signer/core/apitypes"
+	"github.com/Zettablock/op-geth/signer/storage"
 )
 
 const JS = `

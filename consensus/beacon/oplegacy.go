@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/consensus"
-	"github.com/ethereum/go-base/core/state"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/consensus"
+	"github.com/Zettablock/op-geth/core/state"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/rpc"
 )
 
 type OpLegacy struct{}

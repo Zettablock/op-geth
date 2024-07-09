@@ -19,8 +19,8 @@ package leveldb
 import (
 	"testing"
 
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/ethdb/dbtest"
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

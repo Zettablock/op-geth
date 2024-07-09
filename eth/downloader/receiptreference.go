@@ -8,9 +8,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/log"
 )
 
 // userDepositNonces is a struct to hold the reference data for user deposits

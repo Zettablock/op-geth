@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/rawdb"
-	"github.com/ethereum/go-base/eth/downloader"
-	"github.com/ethereum/go-base/eth/protocols/eth"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/rawdb"
+	"github.com/Zettablock/op-geth/eth/downloader"
+	"github.com/Zettablock/op-geth/eth/protocols/eth"
+	"github.com/Zettablock/op-geth/log"
 )
 
 const (

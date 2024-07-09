@@ -16,8 +16,8 @@
 package ethtest
 
 import (
-	"github.com/ethereum/go-base/p2p"
-	"github.com/ethereum/go-base/rlp"
+	"github.com/Zettablock/op-geth/p2p"
+	"github.com/Zettablock/op-geth/rlp"
 )
 
 // Unexported devp2p message codes from p2p/peer.go.

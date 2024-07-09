@@ -28,29 +28,29 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/tyler-smith/go-bip39"
 
-	"github.com/ethereum/go-base"
-	"github.com/ethereum/go-base/accounts"
-	"github.com/ethereum/go-base/accounts/abi"
-	"github.com/ethereum/go-base/accounts/keystore"
-	"github.com/ethereum/go-base/accounts/scwallet"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/hexutil"
-	"github.com/ethereum/go-base/common/math"
-	"github.com/ethereum/go-base/consensus"
-	"github.com/ethereum/go-base/consensus/misc/eip1559"
-	"github.com/ethereum/go-base/core"
-	"github.com/ethereum/go-base/core/state"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/core/vm"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/eth/gasestimator"
-	"github.com/ethereum/go-base/eth/tracers/logger"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/p2p"
-	"github.com/ethereum/go-base/params"
-	"github.com/ethereum/go-base/rlp"
-	"github.com/ethereum/go-base/rpc"
-	"github.com/ethereum/go-base/trie"
+	"github.com/Zettablock/op-geth"
+	"github.com/Zettablock/op-geth/accounts"
+	"github.com/Zettablock/op-geth/accounts/abi"
+	"github.com/Zettablock/op-geth/accounts/keystore"
+	"github.com/Zettablock/op-geth/accounts/scwallet"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/hexutil"
+	"github.com/Zettablock/op-geth/common/math"
+	"github.com/Zettablock/op-geth/consensus"
+	"github.com/Zettablock/op-geth/consensus/misc/eip1559"
+	"github.com/Zettablock/op-geth/core"
+	"github.com/Zettablock/op-geth/core/state"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/core/vm"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/eth/gasestimator"
+	"github.com/Zettablock/op-geth/eth/tracers/logger"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/p2p"
+	"github.com/Zettablock/op-geth/params"
+	"github.com/Zettablock/op-geth/rlp"
+	"github.com/Zettablock/op-geth/rpc"
+	"github.com/Zettablock/op-geth/trie"
 )
 
 // estimateGasErrorRatio is the amount of overestimation eth_estimateGas is
@@ -522,7 +522,7 @@ func (s *PersonalAccountAPI) SignTransaction(ctx context.Context, args Transacti
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://github.com/ethereum/go-base/wiki/Management-APIs#personal_sign
+// https://github.com/Zettablock/op-geth/wiki/Management-APIs#personal_sign
 func (s *PersonalAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr common.Address, passwd string) (hexutil.Bytes, error) {
 	// Look up the wallet containing the requested signer
 	account := accounts.Account{Address: addr}
@@ -550,7 +550,7 @@ func (s *PersonalAccountAPI) Sign(ctx context.Context, data hexutil.Bytes, addr 
 // Note, the signature must conform to the secp256k1 curve R, S and V values, where
 // the V value must be 27 or 28 for legacy reasons.
 //
-// https://github.com/ethereum/go-base/wiki/Management-APIs#personal_ecRecover
+// https://github.com/Zettablock/op-geth/wiki/Management-APIs#personal_ecRecover
 func (s *PersonalAccountAPI) EcRecover(ctx context.Context, data, sig hexutil.Bytes) (common.Address, error) {
 	if len(sig) != crypto.SignatureLength {
 		return common.Address{}, fmt.Errorf("signature must be %d bytes long", crypto.SignatureLength)

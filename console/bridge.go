@@ -25,13 +25,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Zettablock/op-geth/accounts/scwallet"
+	"github.com/Zettablock/op-geth/accounts/usbwallet"
+	"github.com/Zettablock/op-geth/common/hexutil"
+	"github.com/Zettablock/op-geth/console/prompt"
+	"github.com/Zettablock/op-geth/internal/jsre"
+	"github.com/Zettablock/op-geth/rpc"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-base/accounts/scwallet"
-	"github.com/ethereum/go-base/accounts/usbwallet"
-	"github.com/ethereum/go-base/common/hexutil"
-	"github.com/ethereum/go-base/console/prompt"
-	"github.com/ethereum/go-base/internal/jsre"
-	"github.com/ethereum/go-base/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

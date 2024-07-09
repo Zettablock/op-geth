@@ -21,8 +21,8 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
 )
 
 // NodeResolver is used for looking up trie nodes before reaching into the real

@@ -25,8 +25,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-base/accounts"
-	"github.com/ethereum/go-base/crypto"
+	"github.com/Zettablock/op-geth/accounts"
+	"github.com/Zettablock/op-geth/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 )

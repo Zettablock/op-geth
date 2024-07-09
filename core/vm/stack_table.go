@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/params"
 )
 
 func minSwapStack(n int) int {

@@ -20,10 +20,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ethereum/go-base/beacon/engine"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/miner"
+	"github.com/Zettablock/op-geth/beacon/engine"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/miner"
 )
 
 // maxTrackedPayloads is the maximum number of prepared payloads the execution

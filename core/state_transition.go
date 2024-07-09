@@ -22,11 +22,11 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-base/common"
-	cmath "github.com/ethereum/go-base/common/math"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/core/vm"
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/common"
+	cmath "github.com/Zettablock/op-geth/common/math"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/core/vm"
+	"github.com/Zettablock/op-geth/params"
 )
 
 // ExecutionResult includes all output after executing given evm

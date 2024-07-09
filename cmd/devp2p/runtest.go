@@ -19,10 +19,10 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-base/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-base/internal/flags"
-	"github.com/ethereum/go-base/internal/utesting"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/cmd/devp2p/internal/v4test"
+	"github.com/Zettablock/op-geth/internal/flags"
+	"github.com/Zettablock/op-geth/internal/utesting"
+	"github.com/Zettablock/op-geth/log"
 	"github.com/urfave/cli/v2"
 )
 

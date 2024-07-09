@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/params"
-	"github.com/ethereum/go-base/rlp"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/params"
+	"github.com/Zettablock/op-geth/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

@@ -21,9 +21,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/log"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

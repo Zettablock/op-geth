@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/hexutil"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/hexutil"
 )
 
 // EthereumAPI provides an API to access Ethereum full node-related information.

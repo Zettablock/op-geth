@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-base/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/p2p"
-	"github.com/ethereum/go-base/p2p/enode"
-	"github.com/ethereum/go-base/p2p/rlpx"
-	"github.com/ethereum/go-base/rlp"
+	"github.com/Zettablock/op-geth/cmd/devp2p/internal/ethtest"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/p2p"
+	"github.com/Zettablock/op-geth/p2p/enode"
+	"github.com/Zettablock/op-geth/p2p/rlpx"
+	"github.com/Zettablock/op-geth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

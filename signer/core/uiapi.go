@@ -24,11 +24,11 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-base/accounts"
-	"github.com/ethereum/go-base/accounts/keystore"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/math"
-	"github.com/ethereum/go-base/crypto"
+	"github.com/Zettablock/op-geth/accounts"
+	"github.com/Zettablock/op-geth/accounts/keystore"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/math"
+	"github.com/Zettablock/op-geth/crypto"
 )
 
 // SignerUIAPI implements methods Clef provides for a UI to query, in the bidirectional communication

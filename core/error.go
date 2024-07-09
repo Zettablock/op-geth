@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/ethereum/go-base/core/types"
+	"github.com/Zettablock/op-geth/core/types"
 )
 
 var (

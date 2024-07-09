@@ -24,12 +24,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/rawdb"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/eth/protocols/eth"
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/rawdb"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/eth/protocols/eth"
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/log"
 )
 
 // scratchHeaders is the number of headers to store in a scratch space to allow

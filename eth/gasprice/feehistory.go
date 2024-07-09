@@ -25,11 +25,11 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/consensus/misc/eip1559"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/consensus/misc/eip1559"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/rpc"
 	"golang.org/x/exp/slices"
 )
 

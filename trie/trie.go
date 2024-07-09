@@ -22,10 +22,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/trie/trienode"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/trie/trienode"
 )
 
 // Trie is a Merkle Patricia Trie. Use New to create a trie that sits on

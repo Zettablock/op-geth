@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-base/consensus/ethash"
-	"github.com/ethereum/go-base/core/rawdb"
-	"github.com/ethereum/go-base/core/vm"
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/consensus/ethash"
+	"github.com/Zettablock/op-geth/core/rawdb"
+	"github.com/Zettablock/op-geth/core/vm"
+	"github.com/Zettablock/op-geth/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

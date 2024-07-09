@@ -25,7 +25,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/log"
 )
 
 var (

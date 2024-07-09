@@ -22,12 +22,12 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/ethereum/go-base/accounts/abi"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/hexutil"
-	"github.com/ethereum/go-base/core/vm"
-	"github.com/ethereum/go-base/eth/tracers"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/accounts/abi"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/hexutil"
+	"github.com/Zettablock/op-geth/core/vm"
+	"github.com/Zettablock/op-geth/eth/tracers"
+	"github.com/Zettablock/op-geth/log"
 )
 
 //go:generate go run github.com/fjl/gencodec -type callFrame -field-override callFrameMarshaling -out gen_callframe_json.go
@@ -41,7 +41,7 @@ type callLog struct {
 	Topics  []common.Hash  `json:"topics"`
 	Data    hexutil.Bytes  `json:"data"`
 	// Position of the log relative to subcalls within the same trace
-	// See https://github.com/ethereum/go-base/pull/28389 for details
+	// See https://github.com/Zettablock/op-geth/pull/28389 for details
 	Position hexutil.Uint `json:"position"`
 }
 

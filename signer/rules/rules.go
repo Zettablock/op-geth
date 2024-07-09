@@ -23,12 +23,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Zettablock/op-geth/internal/ethapi"
+	"github.com/Zettablock/op-geth/internal/jsre/deps"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/signer/core"
+	"github.com/Zettablock/op-geth/signer/storage"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-base/internal/ethapi"
-	"github.com/ethereum/go-base/internal/jsre/deps"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/signer/core"
-	"github.com/ethereum/go-base/signer/storage"
 )
 
 // consoleOutput is an override for the console.log and console.error methods to

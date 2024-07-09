@@ -22,14 +22,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/prque"
-	"github.com/ethereum/go-base/consensus"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/eth/protocols/eth"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/metrics"
-	"github.com/ethereum/go-base/trie"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/prque"
+	"github.com/Zettablock/op-geth/consensus"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/eth/protocols/eth"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/metrics"
+	"github.com/Zettablock/op-geth/trie"
 )
 
 const (

@@ -16,7 +16,7 @@
 
 package snapshot
 
-import "github.com/ethereum/go-base/metrics"
+import "github.com/Zettablock/op-geth/metrics"
 
 // Metrics in generation
 var (

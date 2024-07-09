@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/internal/blocktest"
-	"github.com/ethereum/go-base/params"
-	"github.com/ethereum/go-base/rlp"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/internal/blocktest"
+	"github.com/Zettablock/op-geth/params"
+	"github.com/Zettablock/op-geth/rlp"
 )
 
 var newTestHasher = blocktest.NewHasher

@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-base/accounts/abi/bind"
-	"github.com/ethereum/go-base/accounts/abi/bind/backends"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/crypto"
+	"github.com/Zettablock/op-geth/accounts/abi/bind"
+	"github.com/Zettablock/op-geth/accounts/abi/bind/backends"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ethereum/go-base/accounts/abi"
-	"github.com/ethereum/go-base/common"
+	"github.com/Zettablock/op-geth/accounts/abi"
+	"github.com/Zettablock/op-geth/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

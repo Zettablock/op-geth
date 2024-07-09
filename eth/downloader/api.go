@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ethereum/go-base"
-	"github.com/ethereum/go-base/event"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth"
+	"github.com/Zettablock/op-geth/event"
+	"github.com/Zettablock/op-geth/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current synchronisation status.

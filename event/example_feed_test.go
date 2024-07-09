@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/ethereum/go-base/event"
+	"github.com/Zettablock/op-geth/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

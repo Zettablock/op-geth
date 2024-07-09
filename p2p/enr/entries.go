@@ -22,7 +22,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/ethereum/go-base/rlp"
+	"github.com/Zettablock/op-geth/rlp"
 )
 
 // Entry is implemented by known node record entry types.

@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/prque"
-	"github.com/ethereum/go-base/core/rawdb"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/metrics"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/prque"
+	"github.com/Zettablock/op-geth/core/rawdb"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/metrics"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

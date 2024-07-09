@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/p2p/dnsdisc"
 	"github.com/cloudflare/cloudflare-go"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/p2p/dnsdisc"
 	"github.com/urfave/cli/v2"
 )
 

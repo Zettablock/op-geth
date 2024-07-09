@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ethereum/go-base/p2p"
-	"github.com/ethereum/go-base/p2p/nat"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth/p2p"
+	"github.com/Zettablock/op-geth/p2p/nat"
+	"github.com/Zettablock/op-geth/rpc"
 )
 
 const (

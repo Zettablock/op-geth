@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/p2p/enode"
-	"github.com/ethereum/go-base/p2p/enr"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/p2p/enode"
+	"github.com/Zettablock/op-geth/p2p/enr"
 	"github.com/urfave/cli/v2"
 )
 

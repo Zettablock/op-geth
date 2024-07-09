@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/vm"
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/vm"
+	"github.com/Zettablock/op-geth/params"
 )
 
 func TestEnsureCreate2Deployer(t *testing.T) {

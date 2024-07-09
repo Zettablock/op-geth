@@ -37,10 +37,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-base/accounts"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/math"
-	"github.com/ethereum/go-base/crypto"
+	"github.com/Zettablock/op-geth/accounts"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/math"
+	"github.com/Zettablock/op-geth/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
@@ -120,7 +120,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://github.com/ethereum/go-base/issues." +
+				"https://github.com/Zettablock/op-geth/issues." +
 				"The error was : %s"
 			//lint:ignore ST1005 This is a message for the user
 			return fmt.Errorf(msg, tmpName, err)

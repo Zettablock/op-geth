@@ -23,15 +23,15 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/consensus/ethash"
+	"github.com/Zettablock/op-geth/core/rawdb"
+	"github.com/Zettablock/op-geth/core/vm"
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/params"
+	"github.com/Zettablock/op-geth/trie"
+	"github.com/Zettablock/op-geth/trie/triedb/pathdb"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/consensus/ethash"
-	"github.com/ethereum/go-base/core/rawdb"
-	"github.com/ethereum/go-base/core/vm"
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/params"
-	"github.com/ethereum/go-base/trie"
-	"github.com/ethereum/go-base/trie/triedb/pathdb"
 )
 
 func TestInvalidCliqueConfig(t *testing.T) {

@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/vm"
-	"github.com/ethereum/go-base/eth/tracers"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/vm"
+	"github.com/Zettablock/op-geth/eth/tracers"
 )
 
 func init() {

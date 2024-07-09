@@ -22,11 +22,11 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/math"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/math"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/params"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

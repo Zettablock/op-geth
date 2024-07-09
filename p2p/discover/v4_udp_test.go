@@ -31,11 +31,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-base/internal/testlog"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/p2p/discover/v4wire"
-	"github.com/ethereum/go-base/p2p/enode"
-	"github.com/ethereum/go-base/p2p/enr"
+	"github.com/Zettablock/op-geth/internal/testlog"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/p2p/discover/v4wire"
+	"github.com/Zettablock/op-geth/p2p/enode"
+	"github.com/Zettablock/op-geth/p2p/enr"
 )
 
 // shared test variables

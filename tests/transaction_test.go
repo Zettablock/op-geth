@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/params"
 )
 
 func TestTransaction(t *testing.T) {

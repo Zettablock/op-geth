@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-base/internal/reexec"
+	"github.com/Zettablock/op-geth/internal/reexec"
 )
 
 func runSelf(args ...string) ([]byte, error) {

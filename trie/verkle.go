@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/trie/trienode"
-	"github.com/ethereum/go-base/trie/utils"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/trie/trienode"
+	"github.com/Zettablock/op-geth/trie/utils"
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
 )

@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/txpool"
-	"github.com/ethereum/go-base/core/types"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/txpool"
+	"github.com/Zettablock/op-geth/core/types"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

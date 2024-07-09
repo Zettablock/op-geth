@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/crypto"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

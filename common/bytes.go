@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/ethereum/go-base/common/hexutil"
+	"github.com/Zettablock/op-geth/common/hexutil"
 )
 
 // FromHex returns the bytes represented by the hexadecimal string s.

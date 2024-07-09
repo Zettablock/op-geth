@@ -5,8 +5,8 @@ import (
 	"unicode"
 
 	// Force-load native and js packages, to trigger registration
-	_ "github.com/ethereum/go-base/eth/tracers/js"
-	_ "github.com/ethereum/go-base/eth/tracers/native"
+	_ "github.com/Zettablock/op-geth/eth/tracers/js"
+	_ "github.com/Zettablock/op-geth/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Zettablock/op-geth/accounts"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/log"
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/ethereum/go-base/accounts"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/log"
 	"golang.org/x/exp/slices"
 )
 

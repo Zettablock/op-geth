@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"github.com/ethereum/go-base/common"
+	"github.com/Zettablock/op-geth/common"
 )
 
 // tracer tracks the changes of trie nodes. During the trie operations,

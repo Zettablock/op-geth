@@ -22,9 +22,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/eth/protocols/eth"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/eth/protocols/eth"
 )
 
 // sendTxs sends the given transactions to the node and

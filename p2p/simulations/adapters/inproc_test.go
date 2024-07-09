@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-base/p2p/simulations/pipes"
+	"github.com/Zettablock/op-geth/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

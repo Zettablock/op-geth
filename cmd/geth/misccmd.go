@@ -22,8 +22,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-base/internal/version"
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/internal/version"
+	"github.com/Zettablock/op-geth/params"
 	"github.com/urfave/cli/v2"
 )
 

@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-base/common/math"
+	"github.com/Zettablock/op-geth/common/math"
 )
 
 func TestCheckCompatible(t *testing.T) {

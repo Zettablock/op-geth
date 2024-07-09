@@ -17,8 +17,8 @@
 package eth
 
 import (
-	"github.com/ethereum/go-base/eth/protocols/eth"
-	"github.com/ethereum/go-base/eth/protocols/snap"
+	"github.com/Zettablock/op-geth/eth/protocols/eth"
+	"github.com/Zettablock/op-geth/eth/protocols/snap"
 )
 
 // ethPeerInfo represents a short summary of the `eth` sub-protocol metadata known

@@ -5,13 +5,13 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core"
-	"github.com/ethereum/go-base/core/txpool/blobpool"
-	"github.com/ethereum/go-base/core/txpool/legacypool"
-	"github.com/ethereum/go-base/eth/downloader"
-	"github.com/ethereum/go-base/eth/gasprice"
-	"github.com/ethereum/go-base/miner"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core"
+	"github.com/Zettablock/op-geth/core/txpool/blobpool"
+	"github.com/Zettablock/op-geth/core/txpool/legacypool"
+	"github.com/Zettablock/op-geth/eth/downloader"
+	"github.com/Zettablock/op-geth/eth/gasprice"
+	"github.com/Zettablock/op-geth/miner"
 )
 
 // MarshalTOML marshals as TOML.

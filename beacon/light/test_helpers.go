@@ -21,10 +21,10 @@ import (
 	"crypto/sha256"
 	mrand "math/rand"
 
-	"github.com/ethereum/go-base/beacon/merkle"
-	"github.com/ethereum/go-base/beacon/params"
-	"github.com/ethereum/go-base/beacon/types"
-	"github.com/ethereum/go-base/common"
+	"github.com/Zettablock/op-geth/beacon/merkle"
+	"github.com/Zettablock/op-geth/beacon/params"
+	"github.com/Zettablock/op-geth/beacon/types"
+	"github.com/Zettablock/op-geth/common"
 )
 
 func GenerateTestCommittee() *types.SerializedSyncCommittee {

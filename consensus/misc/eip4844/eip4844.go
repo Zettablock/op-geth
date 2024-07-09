@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/params"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/params"
 )
 
 var (

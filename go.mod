@@ -1,4 +1,4 @@
-module github.com/ethereum/go-base
+module github.com/Zettablock/op-geth
 
 go 1.21
 

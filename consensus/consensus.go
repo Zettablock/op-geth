@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/state"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/params"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/state"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/params"
+	"github.com/Zettablock/op-geth/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

@@ -28,9 +28,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-base/p2p/enode"
-	"github.com/ethereum/go-base/p2p/enr"
-	"github.com/ethereum/go-base/rlp"
+	"github.com/Zettablock/op-geth/p2p/enode"
+	"github.com/Zettablock/op-geth/p2p/enr"
+	"github.com/Zettablock/op-geth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

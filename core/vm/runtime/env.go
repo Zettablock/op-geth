@@ -17,8 +17,8 @@
 package runtime
 
 import (
-	"github.com/ethereum/go-base/core"
-	"github.com/ethereum/go-base/core/vm"
+	"github.com/Zettablock/op-geth/core"
+	"github.com/Zettablock/op-geth/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

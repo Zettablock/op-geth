@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-base/consensus"
-	"github.com/ethereum/go-base/core/state"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/params"
-	"github.com/ethereum/go-base/trie"
+	"github.com/Zettablock/op-geth/consensus"
+	"github.com/Zettablock/op-geth/core/state"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/params"
+	"github.com/Zettablock/op-geth/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

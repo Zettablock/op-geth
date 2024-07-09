@@ -20,8 +20,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/rlp"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/rlp"
 )
 
 const freezerVersion = 1 // The initial version tag of freezer table metadata

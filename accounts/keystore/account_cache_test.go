@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Zettablock/op-geth/accounts"
+	"github.com/Zettablock/op-geth/common"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-base/accounts"
-	"github.com/ethereum/go-base/common"
 	"golang.org/x/exp/slices"
 )
 

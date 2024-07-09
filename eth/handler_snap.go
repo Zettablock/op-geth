@@ -17,9 +17,9 @@
 package eth
 
 import (
-	"github.com/ethereum/go-base/core"
-	"github.com/ethereum/go-base/eth/protocols/snap"
-	"github.com/ethereum/go-base/p2p/enode"
+	"github.com/Zettablock/op-geth/core"
+	"github.com/Zettablock/op-geth/eth/protocols/snap"
+	"github.com/Zettablock/op-geth/p2p/enode"
 )
 
 // snapHandler implements the snap.Backend interface to handle the various network

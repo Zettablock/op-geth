@@ -20,11 +20,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/eth"
-	"github.com/ethereum/go-base/eth/downloader"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/node"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/eth"
+	"github.com/Zettablock/op-geth/eth/downloader"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/node"
 )
 
 // FullSyncTester is an auxiliary service that allows Geth to perform full sync

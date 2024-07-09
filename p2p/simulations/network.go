@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-base/event"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/p2p"
-	"github.com/ethereum/go-base/p2p/enode"
-	"github.com/ethereum/go-base/p2p/simulations/adapters"
+	"github.com/Zettablock/op-geth/event"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/p2p"
+	"github.com/Zettablock/op-geth/p2p/enode"
+	"github.com/Zettablock/op-geth/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

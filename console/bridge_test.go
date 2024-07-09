@@ -19,8 +19,8 @@ package console
 import (
 	"testing"
 
+	"github.com/Zettablock/op-geth/internal/jsre"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-base/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

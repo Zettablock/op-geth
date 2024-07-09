@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-base/metrics"
-	"github.com/ethereum/go-base/metrics/internal"
+	"github.com/Zettablock/op-geth/metrics"
+	"github.com/Zettablock/op-geth/metrics/internal"
 )
 
 func TestMain(m *testing.M) {

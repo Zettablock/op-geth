@@ -17,7 +17,7 @@
 package state
 
 import (
-	"github.com/ethereum/go-base/common"
+	"github.com/Zettablock/op-geth/common"
 )
 
 // transientStorage is a representation of EIP-1153 "Transient Storage".

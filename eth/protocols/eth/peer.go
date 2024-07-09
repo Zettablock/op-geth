@@ -21,11 +21,11 @@ import (
 	"math/rand"
 	"sync"
 
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/p2p"
+	"github.com/Zettablock/op-geth/rlp"
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/p2p"
-	"github.com/ethereum/go-base/rlp"
 )
 
 const (

@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-base/accounts/keystore"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
+	"github.com/Zettablock/op-geth/accounts/keystore"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
 )
 
 // Tests that the account management snippets work correctly.

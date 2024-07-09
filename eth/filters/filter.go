@@ -21,10 +21,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/bloombits"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/bloombits"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/rpc"
 )
 
 // Filter can be used to retrieve and filter logs.

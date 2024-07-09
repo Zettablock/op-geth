@@ -23,17 +23,17 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/rawdb"
-	"github.com/ethereum/go-base/core/state/snapshot"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/metrics"
-	"github.com/ethereum/go-base/params"
-	"github.com/ethereum/go-base/trie"
-	"github.com/ethereum/go-base/trie/trienode"
-	"github.com/ethereum/go-base/trie/triestate"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/rawdb"
+	"github.com/Zettablock/op-geth/core/state/snapshot"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/metrics"
+	"github.com/Zettablock/op-geth/params"
+	"github.com/Zettablock/op-geth/trie"
+	"github.com/Zettablock/op-geth/trie/trienode"
+	"github.com/Zettablock/op-geth/trie/triestate"
 )
 
 const (
@@ -714,7 +714,7 @@ func (s *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range s.journal.dirties {
-		// As documented [here](https://github.com/ethereum/go-base/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/Zettablock/op-geth/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

@@ -44,13 +44,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/internal/flags"
-	"github.com/ethereum/go-base/p2p"
-	"github.com/ethereum/go-base/p2p/enode"
-	"github.com/ethereum/go-base/p2p/simulations"
-	"github.com/ethereum/go-base/p2p/simulations/adapters"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/internal/flags"
+	"github.com/Zettablock/op-geth/p2p"
+	"github.com/Zettablock/op-geth/p2p/enode"
+	"github.com/Zettablock/op-geth/p2p/simulations"
+	"github.com/Zettablock/op-geth/p2p/simulations/adapters"
+	"github.com/Zettablock/op-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

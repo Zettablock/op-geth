@@ -22,12 +22,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/math"
-	"github.com/ethereum/go-base/core/rawdb"
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/ethdb/memorydb"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/math"
+	"github.com/Zettablock/op-geth/core/rawdb"
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/ethdb/memorydb"
+	"github.com/Zettablock/op-geth/log"
 )
 
 const (

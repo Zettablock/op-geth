@@ -3,7 +3,7 @@ package downloader
 import (
 	"testing"
 
-	"github.com/ethereum/go-base/core/types"
+	"github.com/Zettablock/op-geth/core/types"
 	"github.com/stretchr/testify/assert"
 )
 

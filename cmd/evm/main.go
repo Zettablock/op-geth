@@ -22,14 +22,14 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-base/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-base/internal/debug"
-	"github.com/ethereum/go-base/internal/flags"
+	"github.com/Zettablock/op-geth/cmd/evm/internal/t8ntool"
+	"github.com/Zettablock/op-geth/internal/debug"
+	"github.com/Zettablock/op-geth/internal/flags"
 	"github.com/urfave/cli/v2"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/ethereum/go-base/eth/tracers/js"
-	_ "github.com/ethereum/go-base/eth/tracers/native"
+	_ "github.com/Zettablock/op-geth/eth/tracers/js"
+	_ "github.com/Zettablock/op-geth/eth/tracers/native"
 )
 
 var (

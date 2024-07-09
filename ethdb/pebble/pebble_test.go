@@ -19,10 +19,10 @@ package pebble
 import (
 	"testing"
 
+	"github.com/Zettablock/op-geth/ethdb"
+	"github.com/Zettablock/op-geth/ethdb/dbtest"
 	"github.com/cockroachdb/pebble"
 	"github.com/cockroachdb/pebble/vfs"
-	"github.com/ethereum/go-base/ethdb"
-	"github.com/ethereum/go-base/ethdb/dbtest"
 )
 
 func TestPebbleDB(t *testing.T) {

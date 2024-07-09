@@ -25,11 +25,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/p2p"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/p2p"
+	"github.com/Zettablock/op-geth/rpc"
 )
 
 const (

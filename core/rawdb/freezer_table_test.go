@@ -27,8 +27,8 @@ import (
 	"testing"
 	"testing/quick"
 
+	"github.com/Zettablock/op-geth/metrics"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-base/metrics"
 	"github.com/stretchr/testify/require"
 )
 

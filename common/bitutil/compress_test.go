@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-base/common/hexutil"
+	"github.com/Zettablock/op-geth/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

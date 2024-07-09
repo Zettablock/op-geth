@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/rlp"
 )
 
 // EIP-8 test vectors.

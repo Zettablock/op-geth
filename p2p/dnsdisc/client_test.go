@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Zettablock/op-geth/common/hexutil"
+	"github.com/Zettablock/op-geth/common/mclock"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/internal/testlog"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/p2p/enode"
+	"github.com/Zettablock/op-geth/p2p/enr"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-base/common/hexutil"
-	"github.com/ethereum/go-base/common/mclock"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/internal/testlog"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/p2p/enode"
-	"github.com/ethereum/go-base/p2p/enr"
 )
 
 var signingKeyForTesting, _ = crypto.ToECDSA(hexutil.MustDecode("0xdc599867fc513f8f5e2c2c9c489cde5e71362d1d9ec6e693e0de063236ed1240"))

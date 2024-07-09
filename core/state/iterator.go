@@ -21,10 +21,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/rlp"
-	"github.com/ethereum/go-base/trie"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/rlp"
+	"github.com/Zettablock/op-geth/trie"
 )
 
 // nodeIterator is an iterator to traverse the entire state trie post-order,

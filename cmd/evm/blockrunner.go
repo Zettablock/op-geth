@@ -24,11 +24,11 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/ethereum/go-base/core"
-	"github.com/ethereum/go-base/core/rawdb"
-	"github.com/ethereum/go-base/core/vm"
-	"github.com/ethereum/go-base/eth/tracers/logger"
-	"github.com/ethereum/go-base/tests"
+	"github.com/Zettablock/op-geth/core"
+	"github.com/Zettablock/op-geth/core/rawdb"
+	"github.com/Zettablock/op-geth/core/vm"
+	"github.com/Zettablock/op-geth/eth/tracers/logger"
+	"github.com/Zettablock/op-geth/tests"
 	"github.com/urfave/cli/v2"
 )
 

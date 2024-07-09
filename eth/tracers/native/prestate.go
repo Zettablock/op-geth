@@ -22,12 +22,12 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/hexutil"
-	"github.com/ethereum/go-base/core/vm"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/eth/tracers"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/hexutil"
+	"github.com/Zettablock/op-geth/core/vm"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/eth/tracers"
+	"github.com/Zettablock/op-geth/log"
 )
 
 //go:generate go run github.com/fjl/gencodec -type account -field-override accountMarshaling -out gen_account_json.go

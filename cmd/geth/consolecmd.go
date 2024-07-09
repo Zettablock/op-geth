@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-base/cmd/utils"
-	"github.com/ethereum/go-base/console"
-	"github.com/ethereum/go-base/internal/flags"
+	"github.com/Zettablock/op-geth/cmd/utils"
+	"github.com/Zettablock/op-geth/console"
+	"github.com/Zettablock/op-geth/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

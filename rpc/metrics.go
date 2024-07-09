@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-base/metrics"
+	"github.com/Zettablock/op-geth/metrics"
 )
 
 var (

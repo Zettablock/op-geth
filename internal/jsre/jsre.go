@@ -27,8 +27,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/Zettablock/op-geth/common"
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-base/common"
 )
 
 // JSRE is a JS runtime environment embedding the goja interpreter.

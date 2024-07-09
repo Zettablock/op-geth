@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/Zettablock/op-geth/crypto/secp256k1"
 	"github.com/btcsuite/btcd/btcec/v2"
-	"github.com/ethereum/go-base/crypto/secp256k1"
 )
 
 func TestFuzzer(t *testing.T) {

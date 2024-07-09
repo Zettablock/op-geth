@@ -16,7 +16,7 @@
 
 package eth
 
-import "github.com/ethereum/go-base/metrics"
+import "github.com/Zettablock/op-geth/metrics"
 
 // meters stores ingress and egress handshake meters.
 var meters bidirectionalMeters

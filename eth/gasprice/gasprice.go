@@ -21,14 +21,14 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/common/lru"
-	"github.com/ethereum/go-base/core"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/event"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/params"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/common/lru"
+	"github.com/Zettablock/op-geth/core"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/event"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/params"
+	"github.com/Zettablock/op-geth/rpc"
 	"golang.org/x/exp/slices"
 )
 

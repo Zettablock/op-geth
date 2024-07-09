@@ -24,13 +24,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/p2p/dnsdisc"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/route53"
 	"github.com/aws/aws-sdk-go-v2/service/route53/types"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/p2p/dnsdisc"
 	"github.com/urfave/cli/v2"
 	"golang.org/x/exp/slices"
 )

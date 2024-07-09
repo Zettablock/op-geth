@@ -24,13 +24,13 @@ import (
 	"reflect"
 	"time"
 
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/eth/protocols/eth"
+	"github.com/Zettablock/op-geth/eth/protocols/snap"
+	"github.com/Zettablock/op-geth/p2p"
+	"github.com/Zettablock/op-geth/p2p/rlpx"
+	"github.com/Zettablock/op-geth/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/eth/protocols/eth"
-	"github.com/ethereum/go-base/eth/protocols/snap"
-	"github.com/ethereum/go-base/p2p"
-	"github.com/ethereum/go-base/p2p/rlpx"
-	"github.com/ethereum/go-base/rlp"
 )
 
 var (

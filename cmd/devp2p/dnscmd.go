@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-base/accounts/keystore"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/console/prompt"
-	"github.com/ethereum/go-base/p2p/dnsdisc"
-	"github.com/ethereum/go-base/p2p/enode"
+	"github.com/Zettablock/op-geth/accounts/keystore"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/console/prompt"
+	"github.com/Zettablock/op-geth/p2p/dnsdisc"
+	"github.com/Zettablock/op-geth/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 

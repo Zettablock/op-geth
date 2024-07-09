@@ -29,7 +29,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-base/common/hexutil"
+	"github.com/Zettablock/op-geth/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

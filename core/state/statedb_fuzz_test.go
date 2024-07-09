@@ -29,15 +29,15 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/rawdb"
-	"github.com/ethereum/go-base/core/state/snapshot"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/rlp"
-	"github.com/ethereum/go-base/trie"
-	"github.com/ethereum/go-base/trie/triedb/pathdb"
-	"github.com/ethereum/go-base/trie/triestate"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/rawdb"
+	"github.com/Zettablock/op-geth/core/state/snapshot"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/rlp"
+	"github.com/Zettablock/op-geth/trie"
+	"github.com/Zettablock/op-geth/trie/triedb/pathdb"
+	"github.com/Zettablock/op-geth/trie/triestate"
 )
 
 // A stateTest checks that the state changes are correctly captured. Instances

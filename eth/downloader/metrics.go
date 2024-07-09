@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/ethereum/go-base/metrics"
+	"github.com/Zettablock/op-geth/metrics"
 )
 
 var (

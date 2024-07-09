@@ -24,14 +24,14 @@ import (
 	"math/rand"
 	"reflect"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/core/state"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/eth/protocols/snap"
-	"github.com/ethereum/go-base/internal/utesting"
-	"github.com/ethereum/go-base/trie"
-	"github.com/ethereum/go-base/trie/trienode"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/core/state"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/eth/protocols/snap"
+	"github.com/Zettablock/op-geth/internal/utesting"
+	"github.com/Zettablock/op-geth/trie"
+	"github.com/Zettablock/op-geth/trie/trienode"
 	"golang.org/x/crypto/sha3"
 )
 

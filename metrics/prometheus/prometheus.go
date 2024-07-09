@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/metrics"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

@@ -25,9 +25,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/internal/debug"
-	"github.com/ethereum/go-base/log"
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/internal/debug"
+	"github.com/Zettablock/op-geth/log"
 	"github.com/holiman/uint256"
 	"github.com/urfave/cli/v2"
 )

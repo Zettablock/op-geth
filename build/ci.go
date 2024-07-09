@@ -52,11 +52,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Zettablock/op-geth/common"
+	"github.com/Zettablock/op-geth/crypto/signify"
+	"github.com/Zettablock/op-geth/internal/build"
+	"github.com/Zettablock/op-geth/params"
 	"github.com/cespare/cp"
-	"github.com/ethereum/go-base/common"
-	"github.com/ethereum/go-base/crypto/signify"
-	"github.com/ethereum/go-base/internal/build"
-	"github.com/ethereum/go-base/params"
 )
 
 var (
@@ -244,11 +244,11 @@ func doInstall(cmdline []string) {
 func buildFlags(env build.Environment, staticLinking bool, buildTags []string) (flags []string) {
 	var ld []string
 	if env.Commit != "" {
-		ld = append(ld, "-X", "github.com/ethereum/go-base/internal/version.gitCommit="+env.Commit)
-		ld = append(ld, "-X", "github.com/ethereum/go-base/internal/version.gitDate="+env.Date)
+		ld = append(ld, "-X", "github.com/Zettablock/op-geth/internal/version.gitCommit="+env.Commit)
+		ld = append(ld, "-X", "github.com/Zettablock/op-geth/internal/version.gitDate="+env.Date)
 	}
 	if env.Tag != "" {
-		ld = append(ld, "-X", "github.com/ethereum/go-base/params.gitTag="+env.Tag)
+		ld = append(ld, "-X", "github.com/Zettablock/op-geth/params.gitTag="+env.Tag)
 	}
 	// Strip DWARF on darwin. This used to be required for certain things,
 	// and there is no downside to this, so we just keep doing it.

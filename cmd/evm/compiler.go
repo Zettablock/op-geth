@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-base/cmd/evm/internal/compiler"
+	"github.com/Zettablock/op-geth/cmd/evm/internal/compiler"
 
 	"github.com/urfave/cli/v2"
 )

@@ -25,13 +25,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-base/cmd/utils"
-	"github.com/ethereum/go-base/crypto"
-	"github.com/ethereum/go-base/log"
-	"github.com/ethereum/go-base/p2p/discover"
-	"github.com/ethereum/go-base/p2p/enode"
-	"github.com/ethereum/go-base/p2p/nat"
-	"github.com/ethereum/go-base/p2p/netutil"
+	"github.com/Zettablock/op-geth/cmd/utils"
+	"github.com/Zettablock/op-geth/crypto"
+	"github.com/Zettablock/op-geth/log"
+	"github.com/Zettablock/op-geth/p2p/discover"
+	"github.com/Zettablock/op-geth/p2p/enode"
+	"github.com/Zettablock/op-geth/p2p/nat"
+	"github.com/Zettablock/op-geth/p2p/netutil"
 )
 
 func main() {

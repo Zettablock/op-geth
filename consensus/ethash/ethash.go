@@ -20,9 +20,9 @@ package ethash
 import (
 	"time"
 
-	"github.com/ethereum/go-base/consensus"
-	"github.com/ethereum/go-base/core/types"
-	"github.com/ethereum/go-base/rpc"
+	"github.com/Zettablock/op-geth/consensus"
+	"github.com/Zettablock/op-geth/core/types"
+	"github.com/Zettablock/op-geth/rpc"
 )
 
 // Ethash is a consensus engine based on proof-of-work implementing the ethash

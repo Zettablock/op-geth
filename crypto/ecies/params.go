@@ -43,7 +43,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/ethereum/go-base/crypto"
+	ethcrypto "github.com/Zettablock/op-geth/crypto"
 )
 
 var (

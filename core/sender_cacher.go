@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"github.com/ethereum/go-base/core/types"
+	"github.com/Zettablock/op-geth/core/types"
 )
 
 // SenderCacher is a concurrent transaction sender recoverer and cacher.
