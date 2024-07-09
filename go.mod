@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum/v9
+module github.com/ethereum/go-ethereum
 
 go 1.21
 
